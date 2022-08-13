@@ -1,0 +1,186 @@
+.container {
+  width: 80%;
+  margin: auto;
+}
+.navbar-container {
+  display: flex;
+  text-align: right;
+  flex: 1;
+  justify-content: space-between;
+}
+.list {
+  position: relative;
+  justify-content: space-between;
+  margin: 4px -2px;
+  padding: 0px;
+  height: 61px;
+  align-items: center;
+  display: flex;
+  font-size: 28px;
+}
+.list-item {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  padding: 8px 12px;
+  cursor: pointer;
+  /* transition: 0.5s; */
+}
+.list-item::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+  background: white;
+}
+
+.list-item:hover::after {
+  width: 100%;
+}
+.button-group {
+  display: flex;
+  position: relative;
+}
+
+.search-icon {
+  margin: 15px -18px;
+  padding: 11px 0px;
+}
+
+.nav-button {
+  display: flex;
+  padding: 12px 48px;
+  margin: 17px 32px;
+  cursor: pointer;
+  border: 2 + px solid black;
+  border-radius: 30px;
+  background: transparent;
+}
+.nav-button:hover {
+  background: black;
+  color: white;
+  transition: 0.5s;
+}
+/* .nav-button:hover {
+  /* width: 100%;  
+}*/
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.hero-container {
+  width: 30%;
+  position: relative;
+}
+
+.human {
+  position: relative;
+  width: 100%;
+  z-index: 100;
+}
+.square {
+  position: absolute;
+  top: 200px;
+  right: -80px;
+  z-index: 99;
+}
+
+.hero-container-right {
+  position: relative;
+  width: 60%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.globe {
+  position: absolute;
+  top: 0;
+  left: 200px;
+}
+.star {
+  position: absolute;
+  top: 28px;
+  right: 40px;
+}
+.star-down {
+  position: absolute;
+  bottom: 138px;
+  left: 42px;
+}
+
+.hero-heading {
+  position: relative;
+  font-size: 60px;
+  padding-bottom: 16px;
+  top: 28px;
+}
+
+.hero-description {
+  text-align: center;
+  font-size: 18px;
+  padding: 0px 75px;
+}
+
+.button-email {
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 30px;
+  position: relative;
+  font-size: 19px;
+  /* margin: 2px 29px; */
+  padding: 9px 26px;
+}
+.btn {
+  position: relative;
+  top: 62px;
+}
+.button-email {
+  background: transparent;
+  cursor: pointer;
+}
+.button-email:hover {
+  background: black;
+  color: white;
+  transition: 0.5s;
+}
+.button-join {
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 30px;
+  position: relative;
+  font-size: 19px;
+  /* margin: 3px -28px; */
+  padding: 9px 26px;
+  background: black;
+  color: white;
+}
+.button-join:hover {
+  background: white;
+  color: black;
+  transition: 0.5s;
+}
+.footer {
+  padding: 85px;
+}
+.contact-heading {
+  text-align: center;
+  font-size: 26px;
+  position: relative;
+  top: 53px;
+}
+.icons {
+  display: inline-flex;
+  padding: 38px;
+  justify-content: space-between;
+}
+
+.icns {
+  margin-right: 5px;
+}
